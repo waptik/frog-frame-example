@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run -A --env --unstable-kv --watch main.tsx"
+  },
+  "imports": {
+    "frog": "npm:frog@^0.8.1",
+    "hono": "https://deno.land/x/hono@v4.2.2/mod.ts",
+    "hono/": "https://deno.land/x/hono@v4.2.2/"
+  }
+}
